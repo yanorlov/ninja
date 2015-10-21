@@ -1,0 +1,45 @@
+html, body, .wrapper {
+    height: 100%;
+}
+
+.wrapper {
+    background: #dedede;
+    position: relative;
+}
+
+header {
+}
+
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    margin: 0 2.3529%;
+    background: #bebebe;
+    width: 8.3529%;
+    height: 114px;  /* !!!!!!!!!!!!!! */
+}
+
+nav {
+    float: left;
+    width: 86.9413%;
+    padding-top: 90px; /* !!!!!!!!! */
+}
+
+nav > a {
+    margin: 0 4.9%;
+}
+
+main {
+    padding-left: 34.9412%;
+    padding-right: 11.7647%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
