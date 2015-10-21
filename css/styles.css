@@ -2,6 +2,15 @@ html, body, .wrapper {
     height: 100%;
 }
 
+html {
+    color: #fefefe;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .wrapper {
     background: #dedede;
     position: relative;
@@ -39,7 +48,33 @@ main {
     padding-right: 11.7647%;
 }
 
+main > p {
+    text-shadow: 0 0 15px rgba(0,0,0,.6);
+}
+
 footer {
     position: absolute;
+    width: 100%;
     bottom: 0;
+    padding-left: 2.8235%;
+    background: #bebebe;
+}
+
+.socialmedias a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+.sm-fb {
+    background-color: #366ea7;
+}
+
+.sm-vim {
+    background-color: #3d86cd;
+}
+
+.sm-yt {
+    background-color: #cd4638;
 }
