@@ -24,6 +24,8 @@ a {
 }
 
 header {
+    padding-left: 40px;
+    height: 194px;
 }
 
 header:after {
@@ -34,21 +36,31 @@ header:after {
 
 .logo {
     float: left;
-    margin: 0 2.3529%;
     background: #bebebe;
-    width: 8.3529%;
-    height: 114px;  /* !!!!!!!!!!!!!! */
+    width: 142px; /* 8.3529% */
+    height: 169px;
+    margin-top: 25px;
+    background: url(../images/logo.jpg) no-repeat center;
 }
 
 nav {
-    float: left;
-    width: 86.9413%;
+    margin-left: 180px;
     padding-top: 90px; /* !!!!!!!!! */
     font-size: 4.15em;
 }
 
-nav > a {
+nav li {
+    display: inline;
+}
+
+nav li > a {
+    display: inline-block;
     margin: 0 4.9%;
+}
+
+.submenu {
+    position: absolute;
+    width: 100%;
 }
 
 main {
