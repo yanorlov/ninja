@@ -9,13 +9,17 @@ html {
     overflow: hidden;
 }
 
+body {
+    background: #dedede;
+}
+
 a {
     color: inherit;
     text-decoration: none;
 }
 
 .wrapper {
-    background: #dedede;
+    max-width: 1700px;
     position: relative;
 }
 
@@ -59,24 +63,23 @@ main > p {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
+    display: table;
     width: 100%;
     bottom: 0;
+    left: 0;
+    right: 0;
     padding-bottom: 37px;
     padding-left: 2.8235%;
 }
 
 .contacts {
+    display: table-cell;
     width: 80%;
-    float: left;
 }
 
-.phone {
-    font-size: 4.15em;
-}
-
-.mail {
-    font-size: 3.2em;
+.socialmedias {
+    letter-spacing: 25px;
 }
 
 .socialmedias a {
@@ -98,7 +101,19 @@ footer {
     background-color: #cd4638;
 }
 
+.phone {
+    margin-top: 22px;
+    font-size: 4.15em;
+}
+
+.mail {
+    margin-top: 22px;
+    font-size: 3.2em;
+}
+
 .langs {
-    float: right;
+    display: table-cell;
+    text-align: right;
+    vertical-align: bottom;
     padding-right: 6.7647%;
 }
