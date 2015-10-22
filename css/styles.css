@@ -5,6 +5,8 @@ html, body, .wrapper {
 html {
     color: #fefefe;
     font-family: 'Didact Gothic', sans-serif;
+    font-size: 62.5%;
+    overflow: hidden;
 }
 
 a {
@@ -38,6 +40,7 @@ nav {
     float: left;
     width: 86.9413%;
     padding-top: 90px; /* !!!!!!!!! */
+    font-size: 4.15em;
 }
 
 nav > a {
@@ -51,6 +54,7 @@ main {
 
 main > p {
     text-shadow: 0 0 15px rgba(0,0,0,.6);
+    font-size: 3.2em;
 }
 
 footer {
@@ -62,8 +66,16 @@ footer {
 }
 
 .contacts {
-    width: 30%;
+    width: 80%;
     float: left;
+}
+
+.phone {
+    font-size: 4.15em;
+}
+
+.mail {
+    font-size: 3.2em;
 }
 
 .socialmedias a {
